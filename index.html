@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Bootcamp Assignment 1 2022</title>
+	<link rel="stylesheet" href="./css/styles.css">
+	
+</head>
+
+<body>
+	<header>
+		<!-- Code for inserting a logo.. -->
+
+		<table id="headerTable">
+			<tr>
+
+				<td>
+					<img class="logo" src="./Assets/Images/Logo.png" alt="My Logo" />
+				</td>
+
+				<td align="right">
+					<nav>
+						<a href="#">Home</a>
+						<a href="about.html">About Me</a>
+						<a href="contact.html">Contact Us</a>
+					</nav>
+				</td>
+
+			</tr>
+		</table>
+
+	</header>
+
+	<main>
+
+		<table>
+			<tr>
+				<td colspan="2">
+					<video src="./Assets/Videos/Intro.mp4" controls>
+						An unspecified error  occured!
+					</video>
+				</td>
+			</tr>
+
+			<tr>
+				<td width="50%" align="center">
+					<div class="bio">
+
+						<h1 id="fullName"></h1>
+						<p>
+							A professional final year student studying Software Development at Tshwane University of Technology
+							A Student who is determined to learn and become an asset in the work force
+							and also maintain positive relationship amongst employees.
+						</p>
+
+						<a href="./about.html">
+							<button class="btn"> More... </button>
+						</a>
+
+					</div>
+				</td>
+
+				<td align="right">
+					<img id="UserImage" img src="./Assets/Images/myself.jpg" alt="My Photo">
+				</td>
+			</tr>
+		</table>
+
+	</main>
+
+	<footer>
+
+		<p class="footerText">Facebook Kabelo Kgoadi||		WhatsApp 0764388494||		Twitter @rebotilekgoadi||		Phone 0764388494</p>
+		<h6 class="footerText">322 nana sita street, Pretoria central,0001</h6>
+	</footer>
+
+	<script>
+		let name = 'KABELO';
+		let middleNames = 'SOLOMON REBOTILE';
+		let surname = 'KGOADI';
+
+		document.getElementById('fullName').innerHTML = name + ' ' + middleNames + ' ' + surname;
+	</script>
+
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>About me</title>	
+	<link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+	<header>
+		<table id="headerTable">
+			<tr>
+
+				<td>
+					<img class="logo" src="./Assets/Images/Logo.png" alt="My Logo" />
+				</td>
+
+				<td align="right">
+					<nav>
+						<a href="index.html">Home</a>
+						<a href="#">About Me</a>
+						<a href="contact.html">Contact Us</a>
+					</nav>
+				</td>
+
+			</tr>
+		</table>
+	</header>
+	
+	<main>
+
+		
+
+		<table>
+			<tr>
+				<td colspan="2" width="50%" align="center">
+					<div>
+						<h1 id="fullName"></h1>
+						<p>
+							Thank you for the opportunity to apply for the CodeTribe Bootcamp. I am certain that I have the necessary skills to
+							successfully qualify for the position.
+						</p>
+
+						<p>
+							I am a final year student from Tshwane University of Technology studying National Diploma in Information Technology
+							specializing in Software Development. I have only one module outstanding, IDC30BT. I am seeking Work Integrated Learning
+							to help me complete my qualification, expose me to the industry and gain experience. Throughout my academics, I have been
+							a hard-working student who is determined and passionate about the ICT sector. I have developed interpersonal, management and
+							communications skills which I hope to leverage into your organization.
+						</p>
+
+						<p>
+							After reviewing my Curriculum Vitae, I hope that you will agree that I am the type of competent and competitive candidate you
+							are looking for. Please contact me on 076 438 8494 or via email ksrkgoadi@gmail.com to arrange for convenient meeting time.
+
+							Thank you for your consideration and I hope to hear from you soon.
+						</p>
+					</div>
+				</td>
+
+				<td align="right">
+					<img id="myPhoto" img src="./Assets/Images/kb.jpg" alt="My Photo" />
+				</td>
+			</tr>
+		</table>
+	</main>
+	
+	<footer>
+		<p class="footerText">Facebook Kabelo Kgoadi||		WhatsApp 0764388494||		Twitter @rebotilekgoadi||		Phone 0764388494</p>
+		<h6 class="footerText">322 nana sita street, Pretoria central,0001</h6>
+	</footer>
+
+	<script>
+		let name = 'KABELO';
+		let middleNames = 'SOLOMON REBOTILE';
+		let surname = 'KGOADI';
+
+		document.getElementById('fullName').innerHTML = name + ' ' + middleNames + ' ' + surname;
+	</script>
+
+</body>
+
+</html>
